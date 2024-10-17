@@ -1,8 +1,8 @@
 # Introdução aos testes de performance com k6
 
-<h1 align="left">
-    <img src=".github/logo-stiker.svg" width="250px">
-</h1>
+Exemplo de projeto do curso básico de testes de perfomance com K6 da `QAcademy`
+
+> Abaixo estão as especificações da API de teste criada pela `QAcademy`, utilizada para a realização dos testes de perfomance para validar os requisitos abaixo.
 
 # User API
 
@@ -10,15 +10,15 @@
 
 ### Cadastro
 
-- [X] Deve retornar os id ao cadastrar um novo usuário
-- [X] Deve retornar 201 ao cadastrar um novo usuário
-- [X] Deve retornar 400 ao tentar cadastrar sem email e senha
-- [X] Deve retornar 400 se o email for duplicado
+- [x] Deve retornar os id ao cadastrar um novo usuário
+- [x] Deve retornar 201 ao cadastrar um novo usuário
+- [x] Deve retornar 400 ao tentar cadastrar sem email e senha
+- [x] Deve retornar 400 se o email for duplicado
 
-| campos   | descrição                             | tipo     | obrigatório |
-| :-----   | :------------------------------------ | :------- | :---------- |
-| email    | usuário identificador único           | email    | sim         |
-| password | senha do usuário                      | texto    | sim         |
+| campos   | descrição                   | tipo  | obrigatório |
+| :------- | :-------------------------- | :---- | :---------- |
+| email    | usuário identificador único | email | sim         |
+| password | senha do usuário            | texto | sim         |
 
 ## 🔖 Requisitos não funcionais
 
@@ -60,4 +60,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feito com 💜 &nbsp;por Fernando Papito 👋 &nbsp;[Meu linkedin](https://www.linkedin.com/in/papitoio/)
+Sintam-se livres para me contatar a respeito de dúvidas, sugestões ou qualquer tipo de melhoria sobre o projeto 💚
+
+@leandroalves011
